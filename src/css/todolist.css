@@ -1,0 +1,118 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+    left: 15rem;
+    top: -30rem;
+}
+
+
+.list h1 {
+    margin-bottom: 20px; 
+}
+
+
+.formElements {
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+
+.formElements label {
+    flex-shrink: 0; 
+    margin-right: 10px; 
+}
+
+
+.formElements input {
+    flex: 1; 
+    padding: 5px;
+    margin-right: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.formElements button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+}
+
+
+.list ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    width: 100%; 
+}
+
+
+.list ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc; 
+}
+
+ul.tasktext {
+    position: relative;
+    max-width: 45%;
+    left: 21rem;
+    top: -10rem;
+    padding: 100px;
+}
+
+.delete{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 6rem;
+}
+
+.delete:hover{
+    border: 1px solid black;
+}
+
+.edit{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+}
+
+.edit:hover{
+    border: 1px solid black;
+}
+
+.save{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+}
+
+.save:hover{
+    border: 1px solid black;
+}
+
+.formElements button:hover{
+    border: 1px solid black;
+}

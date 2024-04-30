@@ -1,0 +1,17 @@
+.text {
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 80vh;
+    max-width: 70%;
+    margin: 0 auto; 
+    position: relative;
+    top: -42rem;
+    left: 10rem;
+}
+
+.text h1 {
+    padding: 20px; 
+    text-align: center; 
+    max-width: fit-content;
+}
+
